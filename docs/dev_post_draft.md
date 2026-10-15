@@ -24,14 +24,14 @@ Looking back, the designs weren't the main problem. The problem was everything a
 
 ## Demo
 
-<!-- TODO: {% embed <video URL> %} (docs/demo.mp4, 1:55, no voice-over: captions only) -->
+{% embed https://youtu.be/AVw0skfFAnE %}
 
-![GigPitch result for a coffee-shop brief](SCREENSHOT_02)
-![GigPitch result for an English yoga-studio brief](SCREENSHOT_03)
+![GigPitch result for a coffee-shop brief](https://raw.githubusercontent.com/hongpengtan0-max/gigpitch/main/docs/screenshots/02_result.png)
+![GigPitch result for an English yoga-studio brief](https://raw.githubusercontent.com/hongpengtan0-max/gigpitch/main/docs/screenshots/03_result_en.png)
 
 ## Code
 
-<!-- TODO: {% embed https://github.com/<user>/gigpitch %} -->
+{% embed https://github.com/hongpengtan0-max/gigpitch %}
 
 MIT licensed. Run it with `ollama pull gemma3:1b && npm install && npm start`.
 
