@@ -8,7 +8,7 @@ import fs from 'node:fs';
 
 const ollama = createOllama({ baseURL: (process.env.OLLAMA_URL || 'http://127.0.0.1:11434') + '/api' });
 export const MODEL = process.env.GIGPITCH_MODEL || 'gemma3:1b';
-const PORTFOLIO = process.env.PORTFOLIO_MD || '/workspace/portfolio/cases.md';
+const PORTFOLIO = process.env.PORTFOLIO_MD || new URL('../cases.md', import.meta.url).pathname;
 
 export const gigAgent = new Agent({
   id: 'gigpitch', name: 'GigPitch',

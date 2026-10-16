@@ -36,7 +36,7 @@ npm start            # http://127.0.0.1:4111
 npm test             # end-to-end workflow run
 ```
 
-Environment variables: `GIGPITCH_MODEL` (default `gemma3:1b`), `OLLAMA_URL`, `PORTFOLIO_MD` (path to your cases markdown, using `## title` blocks with a `设计说明：` line) (defaults to `/workspace/portfolio/cases.md`), and `PORT`.
+Environment variables: `GIGPITCH_MODEL` (default `gemma3:1b`), `OLLAMA_URL`, `PORTFOLIO_MD` (path to your cases markdown, using `## title` blocks with a `设计说明：` line) (defaults to `cases.md` in the repo root), and `PORT`.
 
 On a CPU-only 8-vCPU box, a full pitch takes about 20 seconds with `gemma3:1b`.
 
